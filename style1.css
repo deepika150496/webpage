@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: monospace;
+}
+
+body {
+	width: 100%;
+    height: 100%;
+	background: url("dj_green.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+}
+ul {
+	list-style-type: none;
+	font-size: 30px;
+	margin-top: 25px;
+	margin-right: 20px;
+	padding: 0px 20px 0px 20px;
+	float: right;
+}
+ul li{
+	display: inline-block;
+}
+
+
+ul li a {
+	color: #FFcd00;
+	font-weight: bold;
+	text-decoration: none;
+    padding: 5px 20px ;
+    border: 2px solid #FFcd00;
+}
+ul li a:hover {
+	color: #00613e;
+	background-color: #FFcd00;
+}
+
+	
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+}
+
+h1 {
+	font-size: 60px;
+	color: #FFcd00;
+	font-family: cursive;
+
+} 
+.subtitle  {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center; 
+
+}
+.btn {
+   border: 2px solid #FFcd00;
+   padding: 10px 25px 10px 25px;
+   color: #FFcd00;
+   font-weight: bold;
+   font-size: 20px;
+   border-radius: 10%;
+   text-decoration: none;
+}
+.btn:hover {
+	background-color: #FFcd00;
+	color:#00613e;
+}
